@@ -3,9 +3,23 @@ body {
   background-color: #3B403E; /* DARK GRAY */
   font-family: Arial;
   text-align: center;
-  
-}
+  }
 h1 {
   color: #FFFFFF; /* WHITE */
   text-align: center;
 }
+/* Container to center the search bar*/
+.search-container {
+  text-align: center; /* centers the input and button */
+  margin-top: 20px;
+}
+/* Input box */
+.search-bar {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #0077cc;
+  border-radius: 5px:
+}
+/* Search button */
+.search-btn
