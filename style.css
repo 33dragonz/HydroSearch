@@ -13,7 +13,24 @@ h1 {
   text-align: center; /* centers the input and button */
   margin-top: 20px;
 }
-/* Input box */
+
+/*Search button */
+button, .btn {
+  background-color: #0077cc; /*blue background */
+  color: #ffffff; /* white text */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer; /* {Pointer on hover */
+  font-size: 16px;
+  margin-left: 5px;
+  text-decoration: none;
+  display: inline-block;
+}
+button:hover, .btn:hover {
+  background-color: #005fa3; /* darker blue on hover */
+}
+  /* Input box */
 .search-bar {
   width: 300px;
   padding: 10px;
@@ -21,5 +38,5 @@ h1 {
   border: 2px solid #0077cc;
   border-radius: 5px:
 }
-/* Search button */
-.search-btn
+/*Search 
+
