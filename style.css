@@ -2,7 +2,9 @@
 body {
   background-color: #3B403E; /* DARK GRAY */
   font-family: Arial;
+  
 }
 h1 {
   color: #FFFFFF; /* WHITE */
+  text-align: center;
 }
