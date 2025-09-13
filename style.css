@@ -1,42 +1,60 @@
-/* style.css */
+/* General reset */
 body {
-  background-color: #6960EC; /* blue lotus */
-  font-family: Arial;
-  text-align: center;
-  }
-h1 {
-  color: #FFFFFF; /* WHITE */
-  text-align: center;
-}
-/* Container to center the search bar*/
-.search-container {
-  text-align: center; /* centers the input and button */
-  margin-top: 20px;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #0d1117; /* GitHub dark background */
+  color: #c9d1d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-/*Search button */
-button, .btn {
-  background-color: #0077cc; /*blue background */
-  color: #ffffff; /* white text */
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer; /* {Pointer on hover */
-  font-size: 16px;
-  margin-left: 5px;
-  text-decoration: none;
-  display: inline-block;
+/* Center container */
+.container {
+  text-align: center;
 }
-button:hover, .btn:hover {
-  background-color: #005fa3; /* darker blue on hover */
+
+/* Title */
+h1 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
 }
-  /* Input box */
+
+/* Search bar and button */
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
 .search-bar {
   width: 300px;
   padding: 10px;
-  font-size: 16px;
-  border: 2px solid #0077cc;
-  border-radius: 5px:
+  border: none;
+  border-radius: 20px 0 0 20px;
+  outline: none;
 }
 
+.search-btn {
+  padding: 10px 20px;
+  border: none;
+  background-color: #238636; /* GitHub green */
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 0 20px 20px 0;
+  transition: background-color 0.3s ease;
+}
 
+.search-btn:hover {
+  background-color: #2ea043; /* lighter green on hover */
+}
+
+/* Description */
+.description {
+  margin-top: 15px;
+  font-size: 1rem;
+  color: #8b949e;
+}
