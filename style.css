@@ -10,20 +10,20 @@ body {
   align-items: center;
   height: 100vh;
 }
-/* test */
+/* test 
 .hero{
   background-color: red;
-}
+} */
   
 /* Hero Background section */
-/*.hero {
+.hero {
   height: 100vh;
   background: url("HydroSearchBkgrnd.png") no-repeat center center/cover;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-} */
+} 
 /* Center container */
 .container {
   text-align: center;
