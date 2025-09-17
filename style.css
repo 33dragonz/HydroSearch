@@ -14,7 +14,7 @@ body {
 /* Hero Background section */
 .hero {
   height: 100vh;
-  background: url("HydrosearchBkgrnd.png") no-repeat center center/cover;
+  background: url("HydroSearchBkgrnd.png") no-repeat center center/cover;
   display: flex;
   align-items: center;
   justify-content: center;
